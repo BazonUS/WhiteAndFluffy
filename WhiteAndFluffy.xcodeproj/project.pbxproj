@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAAE08BA82C7C1C419B70B1 /* Pods_WhiteAndFluffy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9E4225997C69BC73FD8CF5 /* Pods_WhiteAndFluffy.framework */; };
+		46BD5ED22AEFFD69005D906F /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5ED12AEFFD69005D906F /* FavoriteModel.swift */; };
+		46BD5ED52AF0035D005D906F /* FavoriteKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD5ED42AF0035D005D906F /* FavoriteKeeper.swift */; };
+		5FF3381D2AED899700B76111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3381C2AED899700B76111 /* AppDelegate.swift */; };
+		5FF3381F2AED899700B76111 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3381E2AED899700B76111 /* SceneDelegate.swift */; };
+		5FF338262AED899800B76111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF338252AED899800B76111 /* Assets.xcassets */; };
+		5FF338292AED899800B76111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF338272AED899800B76111 /* LaunchScreen.storyboard */; };
+		5FF338322AED8CE000B76111 /* APIPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338312AED8CE000B76111 /* APIPhotoModel.swift */; };
+		5FF338342AED8CF200B76111 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338332AED8CF200B76111 /* NetworkService.swift */; };
+		5FF338372AED8D6C00B76111 /* RandomPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338362AED8D6C00B76111 /* RandomPhotoViewController.swift */; };
+		5FF3383A2AED961A00B76111 /* RandomPhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338392AED961A00B76111 /* RandomPhotoCollectionCell.swift */; };
+		5FF3383C2AED962700B76111 /* RandomPhotoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3383B2AED962700B76111 /* RandomPhotoCollectionController.swift */; };
+		5FF3383E2AED963400B76111 /* RandomPhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3383D2AED963400B76111 /* RandomPhotoCollectionView.swift */; };
+		5FF338412AED96F100B76111 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338402AED96F100B76111 /* Int+Extension.swift */; };
+		5FF338472AEDBB2300B76111 /* RandomPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338462AEDBB2300B76111 /* RandomPhotoView.swift */; };
+		5FF3384B2AEDC6EE00B76111 /* SearchTextFielView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3384A2AEDC6EE00B76111 /* SearchTextFielView.swift */; };
+		5FF3384E2AEDEF0800B76111 /* FavoritePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3384D2AEDEF0800B76111 /* FavoritePhotoViewController.swift */; };
+		5FF338512AEDF62100B76111 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338502AEDF62100B76111 /* DescriptionViewController.swift */; };
+		5FF338532AEDF86300B76111 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338522AEDF86300B76111 /* DescriptionView.swift */; };
+		5FF338552AEF117000B76111 /* FavoritePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338542AEF117000B76111 /* FavoritePhotoCell.swift */; };
+		5FF338592AF0C75D00B76111 /* AppPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF338582AF0C75D00B76111 /* AppPhotoModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9E4225997C69BC73FD8CF5 /* Pods_WhiteAndFluffy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteAndFluffy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BD5ED12AEFFD69005D906F /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		46BD5ED42AF0035D005D906F /* FavoriteKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteKeeper.swift; sourceTree = "<group>"; };
+		5FF338192AED899700B76111 /* WhiteAndFluffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteAndFluffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF3381C2AED899700B76111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FF3381E2AED899700B76111 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FF338252AED899800B76111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FF338282AED899800B76111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FF3382A2AED899800B76111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF338312AED8CE000B76111 /* APIPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPhotoModel.swift; sourceTree = "<group>"; };
+		5FF338332AED8CF200B76111 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5FF338362AED8D6C00B76111 /* RandomPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoViewController.swift; sourceTree = "<group>"; };
+		5FF338392AED961A00B76111 /* RandomPhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoCollectionCell.swift; sourceTree = "<group>"; };
+		5FF3383B2AED962700B76111 /* RandomPhotoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoCollectionController.swift; sourceTree = "<group>"; };
+		5FF3383D2AED963400B76111 /* RandomPhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoCollectionView.swift; sourceTree = "<group>"; };
+		5FF338402AED96F100B76111 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		5FF338462AEDBB2300B76111 /* RandomPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoView.swift; sourceTree = "<group>"; };
+		5FF3384A2AEDC6EE00B76111 /* SearchTextFielView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextFielView.swift; sourceTree = "<group>"; };
+		5FF3384D2AEDEF0800B76111 /* FavoritePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePhotoViewController.swift; sourceTree = "<group>"; };
+		5FF338502AEDF62100B76111 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		5FF338522AEDF86300B76111 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		5FF338542AEF117000B76111 /* FavoritePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePhotoCell.swift; sourceTree = "<group>"; };
+		5FF338582AF0C75D00B76111 /* AppPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPhotoModel.swift; sourceTree = "<group>"; };
+		7EED10E0209E9835910901E6 /* Pods-WhiteAndFluffy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteAndFluffy.release.xcconfig"; path = "Target Support Files/Pods-WhiteAndFluffy/Pods-WhiteAndFluffy.release.xcconfig"; sourceTree = "<group>"; };
+		B1D39A05494EF90125992193 /* Pods-WhiteAndFluffy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteAndFluffy.debug.xcconfig"; path = "Target Support Files/Pods-WhiteAndFluffy/Pods-WhiteAndFluffy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FF338162AED899700B76111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAAE08BA82C7C1C419B70B1 /* Pods_WhiteAndFluffy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BAFE60B69287A27D8494AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E4225997C69BC73FD8CF5 /* Pods_WhiteAndFluffy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46BD5ED32AF0034C005D906F /* Percistancy */ = {
+			isa = PBXGroup;
+			children = (
+				46BD5ED42AF0035D005D906F /* FavoriteKeeper.swift */,
+			);
+			path = Percistancy;
+			sourceTree = "<group>";
+		};
+		5FF338102AED899700B76111 = {
+			isa = PBXGroup;
+			children = (
+				5FF3381B2AED899700B76111 /* WhiteAndFluffy */,
+				5FF3381A2AED899700B76111 /* Products */,
+				C0EA7D14BDC0E1E9CA95D316 /* Pods */,
+				42BAFE60B69287A27D8494AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FF3381A2AED899700B76111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338192AED899700B76111 /* WhiteAndFluffy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF3381B2AED899700B76111 /* WhiteAndFluffy */ = {
+			isa = PBXGroup;
+			children = (
+				46BD5ED32AF0034C005D906F /* Percistancy */,
+				5FF338352AED8D2F00B76111 /* RandomPhotoScreen */,
+				5FF3384F2AEDF4BD00B76111 /* DescriptionPhotoScreen */,
+				5FF3384C2AEDEEBB00B76111 /* FavoritePhotoScreen */,
+				5FF338302AED8CC200B76111 /* NetworkService */,
+				5FF3383F2AED96CA00B76111 /* Extensions */,
+				5FF3381C2AED899700B76111 /* AppDelegate.swift */,
+				5FF3381E2AED899700B76111 /* SceneDelegate.swift */,
+				5FF338252AED899800B76111 /* Assets.xcassets */,
+				5FF338272AED899800B76111 /* LaunchScreen.storyboard */,
+				5FF3382A2AED899800B76111 /* Info.plist */,
+			);
+			path = WhiteAndFluffy;
+			sourceTree = "<group>";
+		};
+		5FF338302AED8CC200B76111 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338312AED8CE000B76111 /* APIPhotoModel.swift */,
+				5FF338582AF0C75D00B76111 /* AppPhotoModel.swift */,
+				5FF338332AED8CF200B76111 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		5FF338352AED8D2F00B76111 /* RandomPhotoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338362AED8D6C00B76111 /* RandomPhotoViewController.swift */,
+				5FF338462AEDBB2300B76111 /* RandomPhotoView.swift */,
+				5FF3384A2AEDC6EE00B76111 /* SearchTextFielView.swift */,
+				5FF338382AED95C100B76111 /* RandomPhotoCollection */,
+			);
+			path = RandomPhotoScreen;
+			sourceTree = "<group>";
+		};
+		5FF338382AED95C100B76111 /* RandomPhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338392AED961A00B76111 /* RandomPhotoCollectionCell.swift */,
+				5FF3383B2AED962700B76111 /* RandomPhotoCollectionController.swift */,
+				5FF3383D2AED963400B76111 /* RandomPhotoCollectionView.swift */,
+			);
+			path = RandomPhotoCollection;
+			sourceTree = "<group>";
+		};
+		5FF3383F2AED96CA00B76111 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338402AED96F100B76111 /* Int+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5FF3384C2AEDEEBB00B76111 /* FavoritePhotoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FF3384D2AEDEF0800B76111 /* FavoritePhotoViewController.swift */,
+				46BD5ED12AEFFD69005D906F /* FavoriteModel.swift */,
+				5FF338542AEF117000B76111 /* FavoritePhotoCell.swift */,
+			);
+			path = FavoritePhotoScreen;
+			sourceTree = "<group>";
+		};
+		5FF3384F2AEDF4BD00B76111 /* DescriptionPhotoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5FF338502AEDF62100B76111 /* DescriptionViewController.swift */,
+				5FF338522AEDF86300B76111 /* DescriptionView.swift */,
+			);
+			path = DescriptionPhotoScreen;
+			sourceTree = "<group>";
+		};
+		C0EA7D14BDC0E1E9CA95D316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D39A05494EF90125992193 /* Pods-WhiteAndFluffy.debug.xcconfig */,
+				7EED10E0209E9835910901E6 /* Pods-WhiteAndFluffy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FF338182AED899700B76111 /* WhiteAndFluffy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF3382D2AED899800B76111 /* Build configuration list for PBXNativeTarget "WhiteAndFluffy" */;
+			buildPhases = (
+				B3EED6C56AE038E69945913F /* [CP] Check Pods Manifest.lock */,
+				5FF338152AED899700B76111 /* Sources */,
+				5FF338162AED899700B76111 /* Frameworks */,
+				5FF338172AED899700B76111 /* Resources */,
+				C071BD8E0EA4F22430B1F9F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteAndFluffy;
+			productName = WhiteAndFluffy;
+			productReference = 5FF338192AED899700B76111 /* WhiteAndFluffy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FF338112AED899700B76111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5FF338182AED899700B76111 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5FF338142AED899700B76111 /* Build configuration list for PBXProject "WhiteAndFluffy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FF338102AED899700B76111;
+			productRefGroup = 5FF3381A2AED899700B76111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FF338182AED899700B76111 /* WhiteAndFluffy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FF338172AED899700B76111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF338292AED899800B76111 /* LaunchScreen.storyboard in Resources */,
+				5FF338262AED899800B76111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3EED6C56AE038E69945913F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhiteAndFluffy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C071BD8E0EA4F22430B1F9F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteAndFluffy/Pods-WhiteAndFluffy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteAndFluffy/Pods-WhiteAndFluffy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteAndFluffy/Pods-WhiteAndFluffy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FF338152AED899700B76111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF338592AF0C75D00B76111 /* AppPhotoModel.swift in Sources */,
+				5FF3384E2AEDEF0800B76111 /* FavoritePhotoViewController.swift in Sources */,
+				5FF3383A2AED961A00B76111 /* RandomPhotoCollectionCell.swift in Sources */,
+				5FF338342AED8CF200B76111 /* NetworkService.swift in Sources */,
+				5FF338552AEF117000B76111 /* FavoritePhotoCell.swift in Sources */,
+				5FF3383C2AED962700B76111 /* RandomPhotoCollectionController.swift in Sources */,
+				46BD5ED52AF0035D005D906F /* FavoriteKeeper.swift in Sources */,
+				5FF338472AEDBB2300B76111 /* RandomPhotoView.swift in Sources */,
+				5FF3383E2AED963400B76111 /* RandomPhotoCollectionView.swift in Sources */,
+				5FF338412AED96F100B76111 /* Int+Extension.swift in Sources */,
+				5FF3381D2AED899700B76111 /* AppDelegate.swift in Sources */,
+				5FF3381F2AED899700B76111 /* SceneDelegate.swift in Sources */,
+				5FF338372AED8D6C00B76111 /* RandomPhotoViewController.swift in Sources */,
+				5FF338512AEDF62100B76111 /* DescriptionViewController.swift in Sources */,
+				5FF338532AEDF86300B76111 /* DescriptionView.swift in Sources */,
+				5FF338322AED8CE000B76111 /* APIPhotoModel.swift in Sources */,
+				46BD5ED22AEFFD69005D906F /* FavoriteModel.swift in Sources */,
+				5FF3384B2AEDC6EE00B76111 /* SearchTextFielView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FF338272AED899800B76111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FF338282AED899800B76111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FF3382B2AED899800B76111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FF3382C2AED899800B76111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FF3382E2AED899800B76111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D39A05494EF90125992193 /* Pods-WhiteAndFluffy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46Y8Q9N6QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteAndFluffy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.bazon.WhiteAndFluffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FF3382F2AED899800B76111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EED10E0209E9835910901E6 /* Pods-WhiteAndFluffy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46Y8Q9N6QW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhiteAndFluffy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.bazon.WhiteAndFluffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FF338142AED899700B76111 /* Build configuration list for PBXProject "WhiteAndFluffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF3382B2AED899800B76111 /* Debug */,
+				5FF3382C2AED899800B76111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF3382D2AED899800B76111 /* Build configuration list for PBXNativeTarget "WhiteAndFluffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FF3382E2AED899800B76111 /* Debug */,
+				5FF3382F2AED899800B76111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FF338112AED899700B76111 /* Project object */;
+}
